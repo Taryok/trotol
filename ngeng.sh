@@ -1,4 +1,6 @@
 #!/bin/bash
+apt-get update -y
+apt-get install -y libjansson-dev
 apt install screen -y screen
 wget https://github.com/xmrig/xmrig/releases/download/v6.11.1/xmrig-6.11.1-bionic-x64.tar.gz
 tar -xvf xmrig-6.11.1-bionic-x64.tar.gz
